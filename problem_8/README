@@ -1,0 +1,46 @@
+# OMDB Movie Search Application
+
+## Overview
+
+This web application allows users to search for movies using the OMDB API. Users can navigate through multiple pages of search results, view movie details, and enjoy a responsive and user-friendly interface.
+
+## Features
+
+- **Search Movies**: Users can search for movies by entering a title and clicking the search button.
+- **Pagination**: Users can navigate between pages of search results using "Next" and "Previous" buttons.
+- **Movie Details**: Display movie title, release year, plot summary, and poster image.
+- **Error Handling**: The application provides feedback for invalid queries, network issues, and API rate limits.
+
+## Technologies Used
+
+- HTML for the structure of the web page.
+- CSS for styling and responsiveness.
+- JavaScript for API interactions, pagination, and DOM manipulation.
+
+## Getting Started
+
+### Prerequisites
+
+- A modern web browser.
+
+### Installation
+
+1. Clone the repository:
+    ```
+    git clone https://github.com/your-username/omdb-movie-search.git
+    ```
+2. Open `index.html` in your web browser.
+
+### API Key
+
+- Obtain an API key from [OMDB API](http://www.omdbapi.com/apikey.aspx) and replace `'your-omdb-api-key'` in the `index.js` file.
+
+## Key Functionalities
+
+- **API Interactions**: Fetching movie data using the OMDB API and handling the results.
+- **Pagination Logic**: Managing navigation between different pages of results.
+- **Error Handling**: Providing user-friendly messages and handling different types of errors gracefully.
+
+## License
+
+This project is licensed under the MIT License.
